@@ -1,0 +1,5 @@
+The XGBoost regression model was trained on 140 SPARC galaxies using 5-fold cross-validation. On average, the model achieved a mean absolute error of 0.1617 and an R2 score of 0.354, showing that it can estimate dark matter fractions within approximately 16 percent of the actual calculated values.
+
+The SHAP feature analysis revealed that flat rotation velocity and stellar mass are the two most important observable properties for determining a galaxy's dark matter fraction. Neutral hydrogen gas mass, baryonic mass, and effective surface brightness also provide secondary predictive value, while scale lengths, Hubble type, and color play smaller roles.
+
+Astrophysically, these results show that a galaxy's total mass scale and rotation speed are the primary drivers of its dark matter fraction. Low-mass, gas-rich galaxies tend to be dominated by dark matter, whereas massive, high-surface-brightness spiral galaxies have lower relative dark matter fractions in their inner regions.
